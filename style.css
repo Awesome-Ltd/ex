@@ -45,6 +45,8 @@ h1 {
 
 #links {
     list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #links li {
